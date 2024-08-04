@@ -7,6 +7,12 @@ app.use(express.json());
 let userRoutes = require("./routes/userRoutes");
 app.use("/api/users", userRoutes);
 
+let postroutes = require("./routes/postRoutes");
+app.use("/api/posts", postroutes);
+
+let commentRoutes = require("./routes/commentRoutes");
+app.use("/api/comments", commentRoutes);
+
 // parse requests of content-type -application / json;
 
 app.get("/", (req, res) => {
