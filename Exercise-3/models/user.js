@@ -14,23 +14,23 @@ User.init(
         firstName: {
             type: DataTypes.STRING,
             allowNull: false,
-            required: true,
+            // required: true,
         },
         lastName: {
             type: DataTypes.STRING,
             allowNull: false,
-            required: true,
+            // required: true,
         },
         emailId: {
             type: DataTypes.STRING,
             allowNull: false,
-            required: true,
+            // required: true,
             unique: true,
         },
         password: {
             type: DataTypes.STRING,
-            allowNull: false,
-            required: true,
+            // allowNull: false,
+            // required: true,
         },
     },
     {

@@ -18,14 +18,14 @@ Comment.init(
         },
 
         likes: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
         },
         userID: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
             // required: true,
         },
         postID: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
         },
         createdAt: {
             type: DataTypes.DATE,

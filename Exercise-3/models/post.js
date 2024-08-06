@@ -14,24 +14,24 @@ Post.init(
         title: {
             type: DataTypes.STRING,
             allowNull: false,
-            required: true,
+            // required: true,
         },
         description: {
             type: DataTypes.STRING,
             allowNull: false,
-            required: true,
+            // required: true,
         },
         imageURL: {
             type: DataTypes.STRING,
             allowNull: true,
-            required: true,
+            // required: true,
             // unique: true,(when to use unique?)
         },
         likes: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
         },
         userID: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
             // required: true,
         },
         createdAt: {
